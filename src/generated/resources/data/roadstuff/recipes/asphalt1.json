@@ -1,23 +1,23 @@
 {
   "type": "minecraft:crafting_shaped",
   "group": "asphalt",
+  "pattern": [
+    "SB",
+    "BG"
+  ],
   "key": {
-    "B": {
-      "tag": "forge:bitumen"
-    },
     "G": {
       "tag": "forge:gravel"
+    },
+    "B": {
+      "tag": "forge:bitumen"
     },
     "S": {
       "tag": "forge:sand"
     }
   },
-  "pattern": [
-    "SB",
-    "BG"
-  ],
   "result": {
-    "count": 4,
-    "item": "roadstuff:asphalt"
+    "item": "roadstuff:asphalt",
+    "count": 4
   }
 }

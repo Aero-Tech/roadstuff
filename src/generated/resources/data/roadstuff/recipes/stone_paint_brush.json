@@ -1,17 +1,17 @@
 {
   "type": "minecraft:crafting_shaped",
-  "key": {
-    "S": {
-      "tag": "forge:cobblestone"
-    },
-    "W": {
-      "item": "roadstuff:wooden_paint_brush"
-    }
-  },
   "pattern": [
     " W",
     "S "
   ],
+  "key": {
+    "W": {
+      "item": "roadstuff:wooden_paint_brush"
+    },
+    "S": {
+      "tag": "forge:cobblestone"
+    }
+  },
   "result": {
     "item": "roadstuff:stone_paint_brush"
   }

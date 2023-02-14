@@ -6,38 +6,38 @@
       }
     },
     {
-      "apply": {
-        "model": "roadstuff:block/red_guardrail_side"
-      },
       "when": {
         "north": "true"
+      },
+      "apply": {
+        "model": "roadstuff:block/red_guardrail_side"
       }
     },
     {
+      "when": {
+        "south": "true"
+      },
       "apply": {
         "model": "roadstuff:block/red_guardrail_side",
         "y": 180
-      },
-      "when": {
-        "south": "true"
       }
     },
     {
+      "when": {
+        "west": "true"
+      },
       "apply": {
         "model": "roadstuff:block/red_guardrail_side",
         "y": 270
-      },
-      "when": {
-        "west": "true"
       }
     },
     {
+      "when": {
+        "east": "true"
+      },
       "apply": {
         "model": "roadstuff:block/red_guardrail_side",
         "y": 90
-      },
-      "when": {
-        "east": "true"
       }
     }
   ]

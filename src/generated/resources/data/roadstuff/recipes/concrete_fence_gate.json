@@ -1,5 +1,9 @@
 {
   "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "sis",
+    "sis"
+  ],
   "key": {
     "i": {
       "tag": "roadstuff:concrete"
@@ -8,10 +12,6 @@
       "item": "roadstuff:concrete_slab"
     }
   },
-  "pattern": [
-    "sis",
-    "sis"
-  ],
   "result": {
     "item": "roadstuff:concrete_fence_gate"
   }

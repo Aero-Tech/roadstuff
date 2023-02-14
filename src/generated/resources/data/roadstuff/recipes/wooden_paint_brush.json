@@ -1,17 +1,17 @@
 {
   "type": "minecraft:crafting_shaped",
-  "key": {
-    "S": {
-      "tag": "forge:rods/wooden"
-    },
-    "W": {
-      "tag": "minecraft:wool"
-    }
-  },
   "pattern": [
     " W",
     "S "
   ],
+  "key": {
+    "W": {
+      "tag": "minecraft:wool"
+    },
+    "S": {
+      "tag": "forge:rods/wooden"
+    }
+  },
   "result": {
     "item": "roadstuff:wooden_paint_brush"
   }

@@ -2,20 +2,20 @@
   "type": "minecraft:block",
   "pools": [
     {
+      "name": "concrete_yellow_line_315",
+      "rolls": 1.0,
       "bonus_rolls": 0.0,
-      "conditions": [
-        {
-          "condition": "minecraft:survives_explosion"
-        }
-      ],
       "entries": [
         {
           "type": "minecraft:item",
           "name": "roadstuff:concrete"
         }
       ],
-      "name": "block.roadstuff.concrete_yellow_line_315",
-      "rolls": 1.0
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ]
     }
   ]
 }

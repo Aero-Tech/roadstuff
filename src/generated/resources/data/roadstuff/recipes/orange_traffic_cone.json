@@ -1,5 +1,10 @@
 {
   "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " D ",
+    "D D",
+    "BBB"
+  ],
   "key": {
     "B": {
       "tag": "forge:bitumen"
@@ -8,11 +13,6 @@
       "tag": "forge:dyes/orange"
     }
   },
-  "pattern": [
-    " D ",
-    "D D",
-    "BBB"
-  ],
   "result": {
     "item": "roadstuff:orange_traffic_cone"
   }

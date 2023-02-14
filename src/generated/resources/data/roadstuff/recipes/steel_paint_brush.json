@@ -1,17 +1,17 @@
 {
   "type": "minecraft:crafting_shaped",
-  "key": {
-    "S": {
-      "tag": "forge:ingots/steel"
-    },
-    "W": {
-      "item": "roadstuff:iron_paint_brush"
-    }
-  },
   "pattern": [
     " W",
     "S "
   ],
+  "key": {
+    "W": {
+      "item": "roadstuff:iron_paint_brush"
+    },
+    "S": {
+      "tag": "forge:ingots/steel"
+    }
+  },
   "result": {
     "item": "roadstuff:steel_paint_brush"
   }

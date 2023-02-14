@@ -1,5 +1,9 @@
 {
   "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "PPP",
+    " R "
+  ],
   "key": {
     "P": {
       "tag": "forge:plates/steel"
@@ -8,12 +12,8 @@
       "tag": "forge:rods/steel"
     }
   },
-  "pattern": [
-    "PPP",
-    " R "
-  ],
   "result": {
-    "count": 8,
-    "item": "roadstuff:steel_guardrail"
+    "item": "roadstuff:steel_guardrail",
+    "count": 8
   }
 }

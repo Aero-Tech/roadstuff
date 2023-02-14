@@ -1,13 +1,13 @@
 {
   "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "minecraft:lime_cylindrical_bollard_from_white"
+    ]
+  },
   "criteria": {
-    "has_the_recipe": {
-      "conditions": {
-        "recipe": "minecraft:lime_cylindrical_bollard_from_white"
-      },
-      "trigger": "minecraft:recipe_unlocked"
-    },
     "has_white_cylindrical_bollard": {
+      "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
@@ -16,8 +16,13 @@
             ]
           }
         ]
-      },
-      "trigger": "minecraft:inventory_changed"
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "minecraft:lime_cylindrical_bollard_from_white"
+      }
     }
   },
   "requirements": [
@@ -25,10 +30,5 @@
       "has_white_cylindrical_bollard",
       "has_the_recipe"
     ]
-  ],
-  "rewards": {
-    "recipes": [
-      "minecraft:lime_cylindrical_bollard_from_white"
-    ]
-  }
+  ]
 }

@@ -1,15 +1,15 @@
 {
   "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "iii"
+  ],
   "key": {
     "i": {
       "tag": "roadstuff:concrete"
     }
   },
-  "pattern": [
-    "iii"
-  ],
   "result": {
-    "count": 6,
-    "item": "roadstuff:concrete_slab"
+    "item": "roadstuff:concrete_slab",
+    "count": 6
   }
 }

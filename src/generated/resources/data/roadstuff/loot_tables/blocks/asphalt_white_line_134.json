@@ -2,20 +2,20 @@
   "type": "minecraft:block",
   "pools": [
     {
+      "name": "asphalt_white_line_134",
+      "rolls": 1.0,
       "bonus_rolls": 0.0,
-      "conditions": [
-        {
-          "condition": "minecraft:survives_explosion"
-        }
-      ],
       "entries": [
         {
           "type": "minecraft:item",
           "name": "roadstuff:asphalt"
         }
       ],
-      "name": "block.roadstuff.asphalt_white_line_134",
-      "rolls": 1.0
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ]
     }
   ]
 }

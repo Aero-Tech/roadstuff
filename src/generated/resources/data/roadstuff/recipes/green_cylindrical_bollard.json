@@ -1,18 +1,18 @@
 {
   "type": "minecraft:crafting_shaped",
-  "key": {
-    "D": {
-      "tag": "forge:dyes/green"
-    },
-    "R": {
-      "tag": "roadstuff:reflectors"
-    }
-  },
   "pattern": [
     "D",
     "R",
     "D"
   ],
+  "key": {
+    "R": {
+      "tag": "roadstuff:reflectors"
+    },
+    "D": {
+      "tag": "forge:dyes/green"
+    }
+  },
   "result": {
     "item": "roadstuff:green_cylindrical_bollard"
   }

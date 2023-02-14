@@ -1,31 +1,36 @@
 {
   "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "roadstuff:concrete_1"
+    ]
+  },
   "criteria": {
-    "has_gravel": {
-      "conditions": {
-        "items": [
-          {
-            "tag": "forge:gravel"
-          }
-        ]
-      },
-      "trigger": "minecraft:inventory_changed"
-    },
     "has_sand": {
+      "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
             "tag": "forge:sand"
           }
         ]
-      },
-      "trigger": "minecraft:inventory_changed"
+      }
+    },
+    "has_gravel": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "tag": "forge:gravel"
+          }
+        ]
+      }
     },
     "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
       "conditions": {
         "recipe": "roadstuff:concrete_1"
-      },
-      "trigger": "minecraft:recipe_unlocked"
+      }
     }
   },
   "requirements": [
@@ -34,10 +39,5 @@
       "has_gravel",
       "has_the_recipe"
     ]
-  ],
-  "rewards": {
-    "recipes": [
-      "roadstuff:concrete_1"
-    ]
-  }
+  ]
 }

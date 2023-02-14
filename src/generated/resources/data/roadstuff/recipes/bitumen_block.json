@@ -1,15 +1,15 @@
 {
   "type": "minecraft:crafting_shaped",
-  "key": {
-    "x": {
-      "tag": "forge:bitumen"
-    }
-  },
   "pattern": [
     "xxx",
     "xxx",
     "xxx"
   ],
+  "key": {
+    "x": {
+      "tag": "forge:bitumen"
+    }
+  },
   "result": {
     "item": "roadstuff:bitumen_block"
   }

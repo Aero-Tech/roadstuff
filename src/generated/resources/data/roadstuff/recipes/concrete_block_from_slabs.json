@@ -1,14 +1,14 @@
 {
   "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "i",
+    "i"
+  ],
   "key": {
     "i": {
       "item": "roadstuff:concrete_slab"
     }
   },
-  "pattern": [
-    "i",
-    "i"
-  ],
   "result": {
     "item": "roadstuff:concrete"
   }

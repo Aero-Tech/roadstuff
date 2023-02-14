@@ -2,52 +2,54 @@
   "type": "minecraft:block",
   "pools": [
     {
+      "name": "asphalt_slope_white_line_146",
+      "rolls": 1.0,
       "bonus_rolls": 0.0,
       "entries": [
         {
           "type": "minecraft:item",
           "functions": [
             {
-              "add": false,
+              "function": "minecraft:set_count",
               "conditions": [
                 {
-                  "block": "roadstuff:asphalt_slope_white_line_146",
                   "condition": "minecraft:block_state_property",
+                  "block": "roadstuff:asphalt_slope_white_line_146",
                   "properties": {
                     "layers": "2"
                   }
                 }
               ],
               "count": 2.0,
-              "function": "minecraft:set_count"
+              "add": false
             },
             {
-              "add": false,
+              "function": "minecraft:set_count",
               "conditions": [
                 {
-                  "block": "roadstuff:asphalt_slope_white_line_146",
                   "condition": "minecraft:block_state_property",
+                  "block": "roadstuff:asphalt_slope_white_line_146",
                   "properties": {
                     "layers": "3"
                   }
                 }
               ],
               "count": 3.0,
-              "function": "minecraft:set_count"
+              "add": false
             },
             {
-              "add": false,
+              "function": "minecraft:set_count",
               "conditions": [
                 {
-                  "block": "roadstuff:asphalt_slope_white_line_146",
                   "condition": "minecraft:block_state_property",
+                  "block": "roadstuff:asphalt_slope_white_line_146",
                   "properties": {
                     "layers": "4"
                   }
                 }
               ],
               "count": 4.0,
-              "function": "minecraft:set_count"
+              "add": false
             },
             {
               "function": "minecraft:explosion_decay"
@@ -55,9 +57,7 @@
           ],
           "name": "roadstuff:asphalt_slope"
         }
-      ],
-      "name": "block.roadstuff.asphalt_slope_white_line_146",
-      "rolls": 1.0
+      ]
     }
   ]
 }

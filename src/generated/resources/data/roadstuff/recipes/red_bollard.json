@@ -1,18 +1,18 @@
 {
   "type": "minecraft:crafting_shaped",
-  "key": {
-    "R": {
-      "item": "roadstuff:red_reflector"
-    },
-    "S": {
-      "tag": "forge:rods/wooden"
-    }
-  },
   "pattern": [
     "R",
     "S",
     "S"
   ],
+  "key": {
+    "S": {
+      "tag": "forge:rods/wooden"
+    },
+    "R": {
+      "item": "roadstuff:red_reflector"
+    }
+  },
   "result": {
     "item": "roadstuff:red_bollard"
   }

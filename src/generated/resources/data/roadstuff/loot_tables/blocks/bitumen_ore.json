@@ -2,6 +2,8 @@
   "type": "minecraft:block",
   "pools": [
     {
+      "name": "bitumen_ore",
+      "rolls": 1.0,
       "bonus_rolls": 0.0,
       "entries": [
         {
@@ -35,18 +37,18 @@
               ],
               "functions": [
                 {
-                  "add": false,
+                  "function": "minecraft:set_count",
                   "count": {
                     "type": "minecraft:uniform",
-                    "max": 8.0,
-                    "min": 3.0
+                    "min": 3.0,
+                    "max": 8.0
                   },
-                  "function": "minecraft:set_count"
+                  "add": false
                 },
                 {
+                  "function": "minecraft:apply_bonus",
                   "enchantment": "minecraft:fortune",
                   "formula": "minecraft:uniform_bonus_count",
-                  "function": "minecraft:apply_bonus",
                   "parameters": {
                     "bonusMultiplier": 2
                   }
@@ -56,9 +58,7 @@
             }
           ]
         }
-      ],
-      "name": "block.roadstuff.bitumen_ore",
-      "rolls": 1.0
+      ]
     }
   ]
 }

@@ -1,17 +1,23 @@
 {
   "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "roadstuff:concrete_fence"
+    ]
+  },
   "criteria": {
     "has_concrete": {
+      "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
             "tag": "roadstuff:concrete"
           }
         ]
-      },
-      "trigger": "minecraft:inventory_changed"
+      }
     },
     "has_concrete_slab": {
+      "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
@@ -20,14 +26,13 @@
             ]
           }
         ]
-      },
-      "trigger": "minecraft:inventory_changed"
+      }
     },
     "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
       "conditions": {
         "recipe": "roadstuff:concrete_fence"
-      },
-      "trigger": "minecraft:recipe_unlocked"
+      }
     }
   },
   "requirements": [
@@ -36,10 +41,5 @@
       "has_concrete_slab",
       "has_the_recipe"
     ]
-  ],
-  "rewards": {
-    "recipes": [
-      "roadstuff:concrete_fence"
-    ]
-  }
+  ]
 }

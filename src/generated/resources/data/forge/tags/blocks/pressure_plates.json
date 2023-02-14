@@ -1,4 +1,5 @@
 {
+  "replace": false,
   "values": [
     "roadstuff:concrete_pressure_plate",
     "roadstuff:asphalt_pressure_plate"

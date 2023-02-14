@@ -1,17 +1,17 @@
 {
   "type": "minecraft:crafting_shaped",
-  "key": {
-    "#": {
-      "tag": "roadstuff:concrete"
-    }
-  },
   "pattern": [
     "#  ",
     "## ",
     "###"
   ],
+  "key": {
+    "#": {
+      "tag": "roadstuff:concrete"
+    }
+  },
   "result": {
-    "count": 4,
-    "item": "roadstuff:concrete_stairs"
+    "item": "roadstuff:concrete_stairs",
+    "count": 4
   }
 }

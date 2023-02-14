@@ -1,5 +1,10 @@
 {
   "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " D ",
+    " D ",
+    "BBB"
+  ],
   "key": {
     "B": {
       "tag": "forge:bitumen"
@@ -8,11 +13,6 @@
       "tag": "forge:dyes/pink"
     }
   },
-  "pattern": [
-    " D ",
-    " D ",
-    "BBB"
-  ],
   "result": {
     "item": "roadstuff:pink_traffic_bollard"
   }

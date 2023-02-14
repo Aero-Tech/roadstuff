@@ -2,20 +2,20 @@
   "type": "minecraft:block",
   "pools": [
     {
+      "name": "gray_guardrail",
+      "rolls": 1.0,
       "bonus_rolls": 0.0,
-      "conditions": [
-        {
-          "condition": "minecraft:survives_explosion"
-        }
-      ],
       "entries": [
         {
           "type": "minecraft:item",
           "name": "roadstuff:gray_guardrail"
         }
       ],
-      "name": "block.roadstuff.gray_guardrail",
-      "rolls": 1.0
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ]
     }
   ]
 }

@@ -1,18 +1,18 @@
 {
   "type": "minecraft:crafting_shaped",
-  "key": {
-    "D": {
-      "tag": "forge:dyes/light_gray"
-    },
-    "R": {
-      "tag": "roadstuff:reflectors"
-    }
-  },
   "pattern": [
     "D",
     "R",
     "D"
   ],
+  "key": {
+    "R": {
+      "tag": "roadstuff:reflectors"
+    },
+    "D": {
+      "tag": "forge:dyes/light_gray"
+    }
+  },
   "result": {
     "item": "roadstuff:light_gray_cylindrical_bollard"
   }

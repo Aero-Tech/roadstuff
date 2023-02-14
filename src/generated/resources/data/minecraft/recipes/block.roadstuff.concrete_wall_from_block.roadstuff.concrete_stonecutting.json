@@ -1,8 +1,0 @@
-{
-  "type": "minecraft:stonecutting",
-  "count": 1,
-  "ingredient": {
-    "item": "roadstuff:concrete"
-  },
-  "result": "roadstuff:concrete_wall"
-}

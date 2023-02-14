@@ -2,20 +2,20 @@
   "type": "minecraft:block",
   "pools": [
     {
+      "name": "cyan_reflector",
+      "rolls": 1.0,
       "bonus_rolls": 0.0,
-      "conditions": [
-        {
-          "condition": "minecraft:survives_explosion"
-        }
-      ],
       "entries": [
         {
           "type": "minecraft:item",
           "name": "roadstuff:cyan_reflector"
         }
       ],
-      "name": "block.roadstuff.cyan_reflector",
-      "rolls": 1.0
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ]
     }
   ]
 }
